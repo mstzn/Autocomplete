@@ -1,4 +1,3 @@
-
 Autocomplete
 ============
 
@@ -26,8 +25,8 @@ Usage:
 ```
 
 ```js
-$('#complete_mention').BootstrapComplete({
-  requestURL : '', // Request URL
+$('#autocomplete_textarea').BootstrapComplete({
+  requestURL : 'path/to/json', // Request URL
   method : 'POST' // Request Method
   trigger: '@', // Complete Trigger (Char)
   minLength : 2, // Min character count for completion
